@@ -10,10 +10,14 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 	<style>
-		div.tt{
-		background-image:url(images/first.png),url(images/second.png),url(images/third.png);
-		padding-block:22px;
-		}
+		div.tt {
+    background-image: url(images/first.png),url(images/second.png),url(images/third.png);
+    padding-block: 22px;
+    padding: 0;
+    padding-top: 26px;
+    background-color: #fff !important;
+    background-blend-mode: color;
+}
 section.Banner-section {
     background-image: url(images/tenth.jpg);
     background-size: cover;
@@ -22,11 +26,15 @@ section.Banner-section {
     height: 463px;
     position: relative;
 }
-section.ninety{
-		background-image:url(images/first.png),url(images/second.png),url(images/third.png);
-		background-color:#fff;
-		margin-bottom:5rem;
-		}
+
+		section.ninety {
+			background-color:#fff;
+    background-image: url(images/first.png),url(images/second.png),url(images/third.png);
+    margin-bottom: 5rem;
+    background-repeat: no-repeat,no-repeat,repeat;
+    background-position: top left, bottom left, top left;
+    background-size: 100% 6em, 100% 6em, auto;
+}
 		.box11 {
 			margin-top:5rem;
 			color:#fff;
@@ -42,7 +50,7 @@ section.ninety{
 <div class="tt">
 <div class="container">
 <div class="one">
-	<h1>Arcana<a href="#"class="last">by HTML5 UP</a></h1>
+	<h1><a href="#"class="last"><span class="nen">Arcana</span> by HTML5 UP</a></h1>
 </div>
 
 </div>
@@ -51,9 +59,9 @@ section.ninety{
 <div class="container">
 <div class="six">
 	<ul class="fir">
-		<li class="firs">Home</li> 
+		<li class="firs"><a href="#" class="bb">Home</a></li> 
 	
-		<li class="one"><a href="#" class="hund">dropdown</a>
+		<li class="one"><a href="#" class="hund">Dropdown</a>
 		<ul class="two">
 			<li class="menuss"><a href="#" class="hund">Lorem Dolar</a></li>
 			<li class="menu"><a href="#" class="hund">Magna phasellus</a></li>
@@ -228,11 +236,13 @@ section.ninety{
 						<div class="box15">
 							<form>
 								<h3 class="last3">Get in touch</h3>
+								<div class="box41">
 								<input type="text" id="text" placeholder="Name"></input>
 								<input type="email" id="email" placeholder="Email"></input>
-								<textarea cols="69" rows="8" placeholder="Message"></textarea>
+								</div>
+								<textarea cols="56" rows="6" placeholder="Message"></textarea>
 								<br>
-								<button type="submit"><a href="#" class="btnn"></a>Send messsage</a></button>
+								<button type="submit"><a href="#" class="btnn">Send messsage</a></button>
 							</form>
 						</div>
 
@@ -249,9 +259,9 @@ section.ninety{
 						</div>
 						<div class="box33">
 							<ul class="box34">
-								<li>@ Untitled All rights reserved</li>
-								<li>Desiign:<a href="#" class="vhh">HTML 5 UP</a></li>
-								<li>Demo images:<a href="#" class="vhh">Unsplash</a></li>
+								<li class="th">@ Untitled All rights reserved</li>
+								<li class="thh">Desiign:<a href="#" class="vhh">HTML 5 UP</a></li>
+								<li class="thhh">Demo images:<a href="#" class="vhh">Unsplash</a></li>
 							</ul>
 						</div>
 

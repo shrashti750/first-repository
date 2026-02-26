@@ -26,13 +26,15 @@ ul.fir {
     align-items: center;
     gap: 45px;
     color: #c0c0c0;
-    height: 90px;
+    height: 83px;
     font-size: 18px;
 	margin:0;
 }
 .ww{
     background-color: #333;
+    border-bottom: 15px solid #37c0fb;
 }
+
 ul.two {
     opacity: 0;
     background-color: #333;
@@ -63,11 +65,12 @@ ul.third {
     position: absolute;
     background-color: #333;
     left: 173px;
-    top: 99px;
+    top: 90px;
     width: 153px;
     padding-right: 11px;
     padding-left: 19px;
 	border-radius:5px;
+    padding-bottom:20px;
 }
 li.menus:hover ul.third {
 	opacity:1;
@@ -210,10 +213,12 @@ h3 {
 .sixty {
     margin-top: 5rem;
 }
+
 p.para1 {
     padding-bottom: 4rem;
-    font-size: 22px;
+    font-size: 25px;
     color: #999;
+    letter-spacing: -0.025em;
 }
 h1 {
     color: #474747;
@@ -237,6 +242,7 @@ h1.noth {
     padding-top: 4rem;
     font-size: 37px;
     letter-spacing: -0.025em;
+    border-bottom:1px solid  #e0e0e0;
 }
 p.para2 {
     width: 89%;
@@ -299,6 +305,7 @@ a.box21 {
     transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
     color: #474747;
     margin-bottom: 10px;
+    font-weight:300;
 }
 li.list1 {
     padding-bottom: 20px;
@@ -306,6 +313,7 @@ li.list1 {
 h3.last3 {
     color: #474747;
     margin-bottom:34px;
+    letter-spacing:-0.025em;
 }
 a.box21:hover {
     color: #37c0fb;
@@ -410,5 +418,88 @@ a.hund {
     color: #c0c0c0;
 }
 a.hund:hover {
+    color: #fff;
+}
+a.thirteen:hover {
+    background-color: #50c8fc;
+}
+a.bb {
+    color: #fff;
+}
+input#text:focus {
+    border: 1px solid #37c0fb;
+    outline: none;
+}
+input#email:focus {
+    border: 1px solid #37c0fb;
+    outline: none;
+}
+textarea:focus {
+    border: 1px solid #37c0fb;
+    outline: none;
+}
+input#text::placeholder{
+    font-size:17px;
+
+}
+input#email::placeholder{
+    font-size:17px;
+}
+textarea{
+    font-size:17px;
+    padding-top:7px;
+}
+.box41 {
+    display: flex;
+    gap: 20px;
+}
+.box31 {
+    padding-top: 3rem;
+}
+.box13 {
+    background: #f7f7f7 url(images/box55.png);
+    margin: 0;
+    padding-top: 3rem;
+}
+.box33 {
+    padding-bottom: 10rem;
+}
+a.last:hover {
+    color: #37c0fb;
+}
+span.nen {
+    font-weight: 700;
+    color: #474747;
+}
+span.nen:hover {
+    color: #37c0fb;
+}
+li.th::after {
+    content: " ";
+    background-color: #e0e0e0;
+    height: 30px;
+    position: absolute;
+    left: 201px;
+    top: -4px;
+    width: 1px;
+    borer: 1px solid;
+}
+li.th{
+    position:relative;
+}
+li.thh {
+    position: relative;
+}
+li.thh::after {
+    content: "";
+    background-color: #e0e0e0;
+    height: 30px;
+    position: absolute;
+    left: 134px;
+    top: -4px;
+    width: 1px;
+    borer: 1px solid;
+}
+a.btnn {
     color: #fff;
 }
