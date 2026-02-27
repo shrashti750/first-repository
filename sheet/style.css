@@ -6,7 +6,7 @@
 	}
 
 	.container {
-    margin: auto;
+    margin: 0 auto;
     width: 100%;
     max-width: 1200px;
 }
@@ -40,7 +40,7 @@ ul.two {
     background-color: #333;
     position: absolute;
     top: 198px;
-    right: 812px;
+    right: 839px;
     text-align: center;
     padding-left: 23px;
     padding-right: 20px;
@@ -54,7 +54,7 @@ ul.third{
 }
 li.menu {
     padding-top: 11px;
-	font-size:16px;
+	font-size:14px;
 }
 li.menus{
     padding-top: 11px;
@@ -64,13 +64,14 @@ ul.third {
     opacity: 0;
     position: absolute;
     background-color: #333;
-    left: 173px;
-    top: 90px;
+    left: 156px;
+    top: 76px;
     width: 153px;
-    padding-right: 11px;
-    padding-left: 19px;
-	border-radius:5px;
-    padding-bottom:20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    padding-bottom: 29px;
+    padding-top: 12px;
 }
 li.menus:hover ul.third {
 	opacity:1;
@@ -92,14 +93,13 @@ span.fourtheen {
     font-size: 25px;
 }
 p.stat{
-    opacity: 0.75;
     font-size: 20px;
 }
 .twelve {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-block: 10px;
+    padding-block: 17px;
     gap: 25px;
 }
 a.thirteen {
@@ -110,6 +110,7 @@ a.thirteen {
     padding-inline: 37px;
     font-weight: 600;
     border-radius: 5px;
+    background-image:url(images/box40.png);
 }
 a.twel {
     color: #fff;
@@ -136,8 +137,7 @@ li.firs {
 .thirty {
     display: grid;
     grid-template-columns: 30% 30% 30%;
-    gap: 25px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 	margin-top:5rem;
 }
@@ -146,6 +146,7 @@ li.firs {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    gap:21px;
 }
 i.fa-regular.fa-paper-plane {
     background-color: #37c0fb;
@@ -195,6 +196,7 @@ i.fa-solid.fa-wrench{
     font-weight: 300;
 	line-height:1.75;
 }
+
 .seventy {
     display: flex;
     flex-direction: column;
@@ -213,12 +215,12 @@ h3 {
 .sixty {
     margin-top: 5rem;
 }
-
 p.para1 {
     padding-bottom: 4rem;
-    font-size: 25px;
+    font-size: 27px;
     color: #999;
     letter-spacing: -0.025em;
+    margin-top: 0;
 }
 h1 {
     color: #474747;
@@ -237,18 +239,21 @@ h1 {
 }
 .box9 {
     display: flex;
+    padding-top:25px;
 }
 h1.noth {
+    position: relative;
     padding-top: 4rem;
     font-size: 37px;
     letter-spacing: -0.025em;
-    border-bottom:1px solid  #e0e0e0;
 }
 p.para2 {
     width: 89%;
     color: #474747;
     font-weight: 300;
     line-height: 1.75;
+    padding-top:0;
+    margin-top:0;
 }
 .box {
     display: flex;
@@ -269,46 +274,50 @@ li.box7:hover {
 }
 img {
     border-radius: 5px;
-    height: 169px;
-    width: 189px;
 }
 h4 {
     color: #474747;
     font-size: 22px;
     font-weight:600;
+    padding-top:0;
+    margin-top:0;
 }
 .box12 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
     padding-block: 3rem;
     font-size: 19px;
 }
 a.btn {
     background-color: #fff;
-    padding-block: 10px;
-    padding-inline: 22px;
+    padding-block: 11px;
+    padding-inline: 34px;
     border-radius: 6px;
     color: #474747;
-    font-weight:700;
+    font-weight:600;
+    transition:background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
+
+
 a.btn:hover {
     color: #37c0fb !important;
 }
 .box14 {
     display: grid;
-    grid-template-columns: 25% 25% 50%;
+    grid-template-columns: auto auto auto;
+    justify-content:space-between;
 }
 a.box21 {
-    border-bottom: 1px solid rgba(71, 71, 71, 0.25);
+    border-bottom: 1px solid #e0e0e0;
     transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
     color: #474747;
     margin-bottom: 10px;
-    font-weight:300;
+    font-weight: 300;
 }
 li.list1 {
-    padding-bottom: 20px;
+    line-height:2.5;
 }
 h3.last3 {
     color: #474747;
@@ -338,18 +347,21 @@ input#text {
     padding-left: 10px;
 }
 textarea {
-    margin-top: 30px;
+    margin-top: 18px;
     border-radius:6px;
     border: solid 1px #e0e0e0;
     background-color: #fff;
     transition: border-color 0.2s ease-in-out;
     padding-left: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size:17px;
+    padding-top:11px;
 }
 button {
     background-color: #484848;
     color: #Fff;
     height: 52px;
-    width: 155px;
+    width: 172px;
     font-size: 16px;
     border-radius: 6px;
     margin-top: 10px;
@@ -367,24 +379,32 @@ ul.box32 {
 }
 i.fa-brands.fa-twitter {
     color: #999;
+    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 }
 i.fa-brands.fa-facebook-f {
     color: #999;
+    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
 }
 i.fa-brands.fa-facebook-f:hover{
     color:#474747;
 }
 i.fa-brands.fa-github {
     color: #999;
+    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
 }
 i.fa-brands.fa-github:hover{
      color:#474747;
 }
 i.fa-brands.fa-github {
     color: #999;
+
 }
 i.fa-brands.fa-google-plus-g {
     color: #999;
+    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
 }
 i.fa-brands.fa-google-plus-g:hover{
 color:#474747;
@@ -395,6 +415,8 @@ i.fa-brands.fa-twitter:hover{
 }
 i.fa-brands.fa-linkedin-in {
     color: #999;
+    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
 }
 i.fa-brands.fa-linkedin-in:hover{
     color:#474747;
@@ -416,9 +438,11 @@ a.vhh:hover {
 }
 a.hund {
     color: #c0c0c0;
+    font-weight:300;
 }
 a.hund:hover {
     color: #fff;
+    font-weight:300;
 }
 a.thirteen:hover {
     background-color: #50c8fc;
@@ -440,14 +464,16 @@ textarea:focus {
 }
 input#text::placeholder{
     font-size:17px;
+    color:#e0e0e0;
 
 }
 input#email::placeholder{
     font-size:17px;
+    color:#e0e0e0;
+
 }
-textarea{
-    font-size:17px;
-    padding-top:7px;
+textarea::placeholder{
+     color:#e0e0e0;
 }
 .box41 {
     display: flex;
@@ -502,4 +528,30 @@ li.thh::after {
 }
 a.btnn {
     color: #fff;
+}
+a.hundr {
+    color: #c0c0c0;
+    font-size:14px;
+}
+a.hundr:hover{
+    color:#fff;
+}
+ul {
+    padding-left: 0;
+}
+button:hover {
+    background-color: #626262;
+}
+h1.noth::after {
+    position: absolute;
+    content: "";
+    width: 1083px;
+    height: 1px;
+    top: 138px;
+    bottom: 5px;
+    background-color: #e0e0e0;
+    right: -163px;
+}
+span.hk {
+    opacity: 0.75;
 }
